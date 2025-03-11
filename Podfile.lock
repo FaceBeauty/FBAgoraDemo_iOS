@@ -1,0 +1,16 @@
+PODS:
+  - sdk (1.0)
+
+DEPENDENCIES:
+  - sdk (from `sdk.podspec`)
+
+EXTERNAL SOURCES:
+  sdk:
+    :path: sdk.podspec
+
+SPEC CHECKSUMS:
+  sdk: e3479e54702dcafc8c3e74a1baa05d7c2c8f753d
+
+PODFILE CHECKSUM: b5a2dbcd249ec7ac0bf507015db5f9c0a60a5e40
+
+COCOAPODS: 1.16.2

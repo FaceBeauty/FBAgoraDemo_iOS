@@ -1,0 +1,26 @@
+${PODS_ROOT}/Target Support Files/sdk/sdk-xcframeworks.sh
+${PODS_ROOT}/../libs/AgoraAiEchoCancellationExtension.xcframework
+${PODS_ROOT}/../libs/AgoraAiEchoCancellationLLExtension.xcframework
+${PODS_ROOT}/../libs/AgoraAiNoiseSuppressionExtension.xcframework
+${PODS_ROOT}/../libs/AgoraAiNoiseSuppressionLLExtension.xcframework
+${PODS_ROOT}/../libs/AgoraAudioBeautyExtension.xcframework
+${PODS_ROOT}/../libs/AgoraClearVisionExtension.xcframework
+${PODS_ROOT}/../libs/AgoraContentInspectExtension.xcframework
+${PODS_ROOT}/../libs/AgoraFaceCaptureExtension.xcframework
+${PODS_ROOT}/../libs/AgoraFaceDetectionExtension.xcframework
+${PODS_ROOT}/../libs/Agorafdkaac.xcframework
+${PODS_ROOT}/../libs/Agoraffmpeg.xcframework
+${PODS_ROOT}/../libs/AgoraLipSyncExtension.xcframework
+${PODS_ROOT}/../libs/AgoraReplayKitExtension.xcframework
+${PODS_ROOT}/../libs/AgoraRtcKit.xcframework
+${PODS_ROOT}/../libs/AgoraSoundTouch.xcframework
+${PODS_ROOT}/../libs/AgoraSpatialAudioExtension.xcframework
+${PODS_ROOT}/../libs/AgoraVideoAv1DecoderExtension.xcframework
+${PODS_ROOT}/../libs/AgoraVideoAv1EncoderExtension.xcframework
+${PODS_ROOT}/../libs/AgoraVideoDecoderExtension.xcframework
+${PODS_ROOT}/../libs/AgoraVideoEncoderExtension.xcframework
+${PODS_ROOT}/../libs/AgoraVideoQualityAnalyzerExtension.xcframework
+${PODS_ROOT}/../libs/AgoraVideoSegmentationExtension.xcframework
+${PODS_ROOT}/../libs/aosl.xcframework
+${PODS_ROOT}/../libs/video_dec.xcframework
+${PODS_ROOT}/../libs/video_enc.xcframework
