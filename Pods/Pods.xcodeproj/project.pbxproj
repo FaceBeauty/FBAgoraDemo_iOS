@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
+		911FF451358DE96B078C9CD9AF007B92 /* FaceBeauty */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = FC8DF80A130A04C6B189219605D7DE16 /* Build configuration list for PBXAggregateTarget "FaceBeauty" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = FaceBeauty;
+		};
 		F1C9246AC03AB7D9E66F9C6E1E1D42C3 /* sdk */ = {
 			isa = PBXAggregateTarget;
 			buildConfigurationList = F7E42B04D3C98E1531B70DCA78790A53 /* Build configuration list for PBXAggregateTarget "sdk" */;
@@ -20,33 +29,40 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		023CBA6CF416928A1A92E1CA99E2BEC3 /* Pods-APIExample-OC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 42FC545F88C7E3CEFE12B20FE34E909C /* Pods-APIExample-OC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		20DAC340A2D9020667BA2D75AF4D2FF0 /* Pods-Agora-ScreenShare-Extension-OC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA54A87BD0FBCFCE4CEB19D5A7D998EA /* Pods-Agora-ScreenShare-Extension-OC-dummy.m */; };
 		471962A46189742AD7DEE741761BE4E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
-		49C55E22E680D5786AD6E15217736596 /* Pods-APIExample-OC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 42FC545F88C7E3CEFE12B20FE34E909C /* Pods-APIExample-OC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6165E071B288E3CF723F7F158BFECC76 /* Pods-SimpleFilter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 103F6664361402E5AF4D6A2301BFC639 /* Pods-SimpleFilter-dummy.m */; };
+		6EF357CB47E37DEDB3B036A86843CFE7 /* Pods-APIExample-OC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F47635DDB49B4056C3386675D69CECED /* Pods-APIExample-OC-dummy.m */; };
 		9B5758FB9941FFC828E118B7802E5C0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
 		BAC3C61FD508D19E820C4EED2A25C603 /* Pods-SimpleFilter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F3408B721E35652C91133FD39D4FEA6F /* Pods-SimpleFilter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC7B0EF60523D863945EAAD65ADC7A47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
 		E3A84853F2AC06B8CC2324992D617370 /* Pods-Agora-ScreenShare-Extension-OC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A374C71F297A6F91297E70A42B3B376F /* Pods-Agora-ScreenShare-Extension-OC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EA15F02F81A5668461A6A1BAA730605A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
-		FCAD31551D9783CECCD51AD9716DF090 /* Pods-APIExample-OC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F47635DDB49B4056C3386675D69CECED /* Pods-APIExample-OC-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2CBC19D1FAD774BECEBC84D96D91FB59 /* PBXContainerItemProxy */ = {
+		210199375D8190A8285E22F369F91C6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 911FF451358DE96B078C9CD9AF007B92;
+			remoteInfo = FaceBeauty;
+		};
+		23FBC413F949320046692F40DA923A99 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = F1C9246AC03AB7D9E66F9C6E1E1D42C3;
 			remoteInfo = sdk;
 		};
-		3D3BE1DC5A7BBCEC46063FE309028686 /* PBXContainerItemProxy */ = {
+		5CF8F4DE5FDA5ABB3E2E1B63FFE4512E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = F1C9246AC03AB7D9E66F9C6E1E1D42C3;
 			remoteInfo = sdk;
 		};
-		84021F223A7EDDAE4012E72A3D23675F /* PBXContainerItemProxy */ = {
+		637F068B374F49636CAC0B5394FE3466 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -62,6 +78,7 @@
 		19828410C52F520988B0DFDC9320D743 /* Pods-SimpleFilter */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SimpleFilter"; path = Pods_SimpleFilter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A10E6296040E0B5E6B22AD3F79EE518 /* Pods-SimpleFilter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleFilter.debug.xcconfig"; sourceTree = "<group>"; };
 		1A1866AAFA1A48114CF8C2BAD93C980F /* aosl.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = aosl.xcframework; path = libs/aosl.xcframework; sourceTree = "<group>"; };
+		1AF3985E6FE096130945F1A5B1AE7E28 /* FaceBeauty.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FaceBeauty.debug.xcconfig; sourceTree = "<group>"; };
 		1B2A82919D60CC56628B12C8963B9C51 /* Pods-Agora-ScreenShare-Extension-OC-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Agora-ScreenShare-Extension-OC-Info.plist"; sourceTree = "<group>"; };
 		1E3021A253239BD50B82364358A9B77B /* Pods-APIExample-OC-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-APIExample-OC-acknowledgements.plist"; sourceTree = "<group>"; };
 		1E409699DF33E0846A8A48C6A8096ED8 /* AgoraClearVisionExtension.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = AgoraClearVisionExtension.xcframework; path = libs/AgoraClearVisionExtension.xcframework; sourceTree = "<group>"; };
@@ -76,6 +93,7 @@
 		39CA677FC13DAEA1E71DC055DBE016F2 /* Pods-Agora-ScreenShare-Extension-OC-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Agora-ScreenShare-Extension-OC-acknowledgements.plist"; sourceTree = "<group>"; };
 		42FC545F88C7E3CEFE12B20FE34E909C /* Pods-APIExample-OC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-APIExample-OC-umbrella.h"; sourceTree = "<group>"; };
 		445DC8705E4C49CA164B316FB6DA7D34 /* Pods-Agora-ScreenShare-Extension-OC */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Agora-ScreenShare-Extension-OC"; path = Pods_Agora_ScreenShare_Extension_OC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4993AB117F6BF46E7E95E2A1598612C8 /* FaceBeauty.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FaceBeauty.release.xcconfig; sourceTree = "<group>"; };
 		4CB7D794C349641B596F1EA36E9193C8 /* Agoraffmpeg.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = Agoraffmpeg.xcframework; path = libs/Agoraffmpeg.xcframework; sourceTree = "<group>"; };
 		589844FE886CAB7C2AD8C5FFBD7C16BE /* Pods-APIExample-OC */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-APIExample-OC"; path = Pods_APIExample_OC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AAC382294B1E5AFAE9551B7E3849C46 /* AgoraSoundTouch.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = AgoraSoundTouch.xcframework; path = libs/AgoraSoundTouch.xcframework; sourceTree = "<group>"; };
@@ -105,6 +123,7 @@
 		C9E0423E77929D84AAADFD0BC9BA82EF /* sdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = sdk.debug.xcconfig; sourceTree = "<group>"; };
 		CAF627C2938B12C599D40A3AD60CFE10 /* video_enc.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = video_enc.xcframework; path = libs/video_enc.xcframework; sourceTree = "<group>"; };
 		CCF37C410AE4CF6D107A5DA29F9A9C41 /* AgoraAiNoiseSuppressionExtension.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = AgoraAiNoiseSuppressionExtension.xcframework; path = libs/AgoraAiNoiseSuppressionExtension.xcframework; sourceTree = "<group>"; };
+		D2EC8FF76C6E8723474C11026BC46165 /* FaceBeauty.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FaceBeauty.framework; sourceTree = "<group>"; };
 		DA54A87BD0FBCFCE4CEB19D5A7D998EA /* Pods-Agora-ScreenShare-Extension-OC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Agora-ScreenShare-Extension-OC-dummy.m"; sourceTree = "<group>"; };
 		DCEB18DE0824B32FF7515AA048342186 /* Agorafdkaac.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = Agorafdkaac.xcframework; path = libs/Agorafdkaac.xcframework; sourceTree = "<group>"; };
 		EFEB05212E11486B265E9CC051F0AA02 /* AgoraVideoSegmentationExtension.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = AgoraVideoSegmentationExtension.xcframework; path = libs/AgoraVideoSegmentationExtension.xcframework; sourceTree = "<group>"; };
@@ -118,14 +137,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0F0097915943AC0FD6DC07F726A4B855 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EA15F02F81A5668461A6A1BAA730605A /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F177D2B82B85D761E53C0ACA341D685D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -139,6 +150,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				471962A46189742AD7DEE741761BE4E3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0F03F89FAE31A5B6553969E4661D03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC7B0EF60523D863945EAAD65ADC7A47 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,6 +204,16 @@
 				CAF627C2938B12C599D40A3AD60CFE10 /* video_enc.xcframework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		163FA0620F59D6939881444132A46759 /* FaceBeauty */ = {
+			isa = PBXGroup;
+			children = (
+				DB356EFE92CE5642117BDF583D13D041 /* Frameworks */,
+				BEA23BA22C63CA61EFD44F22DC138BBF /* Support Files */,
+			);
+			name = FaceBeauty;
+			path = FaceBeauty;
 			sourceTree = "<group>";
 		};
 		4B43BE0C0D3C6B31B504D0F7C8A4C0CB /* sdk */ = {
@@ -260,6 +289,16 @@
 			path = "Target Support Files/Pods-Agora-ScreenShare-Extension-OC";
 			sourceTree = "<group>";
 		};
+		BEA23BA22C63CA61EFD44F22DC138BBF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AF3985E6FE096130945F1A5B1AE7E28 /* FaceBeauty.debug.xcconfig */,
+				4993AB117F6BF46E7E95E2A1598612C8 /* FaceBeauty.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FaceBeauty";
+			sourceTree = "<group>";
+		};
 		C4D7620B73A975D28D59E395208F96E8 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
@@ -274,6 +313,7 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				9A75FE4725140427E555299B548020B7 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				E1FF9874B9A567481EC4DD1F8AC296E6 /* Pods */,
 				6411EA22C589277675B1CA54C0C390B7 /* Products */,
 				02918B13443A7652590775FB657F5210 /* Targets Support Files */,
 			);
@@ -283,6 +323,14 @@
 			isa = PBXGroup;
 			children = (
 				E4801F62A6B08CD9B5410329F1A18FDE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB356EFE92CE5642117BDF583D13D041 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2EC8FF76C6E8723474C11026BC46165 /* FaceBeauty.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -303,6 +351,14 @@
 			path = "Target Support Files/Pods-SimpleFilter";
 			sourceTree = "<group>";
 		};
+		E1FF9874B9A567481EC4DD1F8AC296E6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				163FA0620F59D6939881444132A46759 /* FaceBeauty */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -314,11 +370,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		49ADDBDE42E25C6D012DF4DEFE9E7BE3 /* Headers */ = {
+		224841AA66452E5AF8B64CDDBBAC50EF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49C55E22E680D5786AD6E15217736596 /* Pods-APIExample-OC-umbrella.h in Headers */,
+				023CBA6CF416928A1A92E1CA99E2BEC3 /* Pods-APIExample-OC-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,7 +409,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				8F11E19C6D3C7A2C19B3F08E02F75B59 /* PBXTargetDependency */,
+				CE8F5D8B8EFC019FC62730A23F25EA5C /* PBXTargetDependency */,
 			);
 			name = "Pods-Agora-ScreenShare-Extension-OC";
 			productName = Pods_Agora_ScreenShare_Extension_OC;
@@ -362,17 +418,18 @@
 		};
 		8E3F283973AAAD496EF3ED5636F25245 /* Pods-APIExample-OC */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FFA8A2DDF39B4A6FB09527CFFC18E029 /* Build configuration list for PBXNativeTarget "Pods-APIExample-OC" */;
+			buildConfigurationList = ADB441C90DC41784BE7F131BFE2D1163 /* Build configuration list for PBXNativeTarget "Pods-APIExample-OC" */;
 			buildPhases = (
-				49ADDBDE42E25C6D012DF4DEFE9E7BE3 /* Headers */,
-				4FD38878C2E6CD22DC003449130E8DFA /* Sources */,
-				0F0097915943AC0FD6DC07F726A4B855 /* Frameworks */,
-				4F77A3A365E1039BB432D4A298BD5587 /* Resources */,
+				224841AA66452E5AF8B64CDDBBAC50EF /* Headers */,
+				E505E040975F8890851546E27D503DEC /* Sources */,
+				FB0F03F89FAE31A5B6553969E4661D03 /* Frameworks */,
+				3CA8FC3EBFCED98635E8D7A7B89F3AE5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F246FDAD7B14B3B05DBB55FE60411BAB /* PBXTargetDependency */,
+				A79B0440A6E4CF7E7748112FC5A67BD9 /* PBXTargetDependency */,
+				D26579267D26614E9C9D6D2E20A85CAE /* PBXTargetDependency */,
 			);
 			name = "Pods-APIExample-OC";
 			productName = Pods_APIExample_OC;
@@ -391,7 +448,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				6E0ADC2C0D053698664683F3B9B64CC9 /* PBXTargetDependency */,
+				8C399BC0E4EF45E4AD0BA52358330BF2 /* PBXTargetDependency */,
 			);
 			name = "Pods-SimpleFilter";
 			productName = Pods_SimpleFilter;
@@ -422,6 +479,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				911FF451358DE96B078C9CD9AF007B92 /* FaceBeauty */,
 				0C58F48FF3A32320BEFDC68EDACFCB27 /* Pods-Agora-ScreenShare-Extension-OC */,
 				8E3F283973AAAD496EF3ED5636F25245 /* Pods-APIExample-OC */,
 				E2C9A339DC56EC1882C115B4753F3B24 /* Pods-SimpleFilter */,
@@ -438,7 +496,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4F77A3A365E1039BB432D4A298BD5587 /* Resources */ = {
+		3CA8FC3EBFCED98635E8D7A7B89F3AE5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -475,14 +533,6 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4FD38878C2E6CD22DC003449130E8DFA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FCAD31551D9783CECCD51AD9716DF090 /* Pods-APIExample-OC-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		54D5B76CDC5D61FDF107323483F0EC06 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -499,68 +549,62 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E505E040975F8890851546E27D503DEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EF357CB47E37DEDB3B036A86843CFE7 /* Pods-APIExample-OC-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6E0ADC2C0D053698664683F3B9B64CC9 /* PBXTargetDependency */ = {
+		8C399BC0E4EF45E4AD0BA52358330BF2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = sdk;
 			target = F1C9246AC03AB7D9E66F9C6E1E1D42C3 /* sdk */;
-			targetProxy = 2CBC19D1FAD774BECEBC84D96D91FB59 /* PBXContainerItemProxy */;
+			targetProxy = 23FBC413F949320046692F40DA923A99 /* PBXContainerItemProxy */;
 		};
-		8F11E19C6D3C7A2C19B3F08E02F75B59 /* PBXTargetDependency */ = {
+		A79B0440A6E4CF7E7748112FC5A67BD9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = sdk;
-			target = F1C9246AC03AB7D9E66F9C6E1E1D42C3 /* sdk */;
-			targetProxy = 3D3BE1DC5A7BBCEC46063FE309028686 /* PBXContainerItemProxy */;
+			name = FaceBeauty;
+			target = 911FF451358DE96B078C9CD9AF007B92 /* FaceBeauty */;
+			targetProxy = 210199375D8190A8285E22F369F91C6E /* PBXContainerItemProxy */;
 		};
-		F246FDAD7B14B3B05DBB55FE60411BAB /* PBXTargetDependency */ = {
+		CE8F5D8B8EFC019FC62730A23F25EA5C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = sdk;
 			target = F1C9246AC03AB7D9E66F9C6E1E1D42C3 /* sdk */;
-			targetProxy = 84021F223A7EDDAE4012E72A3D23675F /* PBXContainerItemProxy */;
+			targetProxy = 637F068B374F49636CAC0B5394FE3466 /* PBXContainerItemProxy */;
+		};
+		D26579267D26614E9C9D6D2E20A85CAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = sdk;
+			target = F1C9246AC03AB7D9E66F9C6E1E1D42C3 /* sdk */;
+			targetProxy = 5CF8F4DE5FDA5ABB3E2E1B63FFE4512E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		271FDA40E2813871B63E7547DCF21496 /* Debug */ = {
+		24BABBC2A01FCF4FEA06D8E1260973F8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8A7C862BDCA1FACD906E96013BD618DF /* Pods-APIExample-OC.debug.xcconfig */;
+			baseConfigurationReference = 4993AB117F6BF46E7E95E2A1598612C8 /* FaceBeauty.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				INFOPLIST_FILE = "Target Support Files/Pods-APIExample-OC/Pods-APIExample-OC-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-APIExample-OC/Pods-APIExample-OC.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
 		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -645,45 +689,23 @@
 			};
 			name = Debug;
 		};
-		491F52BD5DCC6D221E107EBBE20EAA20 /* Release */ = {
+		4CDAB6E004A491A6896FE22076DC432A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C92B5C1E87E07B597C6DC7C4A9FF69F9 /* Pods-APIExample-OC.release.xcconfig */;
+			baseConfigurationReference = 1AF3985E6FE096130945F1A5B1AE7E28 /* FaceBeauty.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				INFOPLIST_FILE = "Target Support Files/Pods-APIExample-OC/Pods-APIExample-OC-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-APIExample-OC/Pods-APIExample-OC.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -826,6 +848,85 @@
 			};
 			name = Debug;
 		};
+		A276C50A32D48AA5220B011E27CC3BEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C92B5C1E87E07B597C6DC7C4A9FF69F9 /* Pods-APIExample-OC.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-APIExample-OC/Pods-APIExample-OC-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-APIExample-OC/Pods-APIExample-OC.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B897E8FEC614767A681D45BE0F07F4F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A7C862BDCA1FACD906E96013BD618DF /* Pods-APIExample-OC.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-APIExample-OC/Pods-APIExample-OC-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-APIExample-OC/Pods-APIExample-OC.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		B8FDA48983347630F66FA069E6763EB6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C386D8B94413026BFA08405A3E3B8158 /* Pods-SimpleFilter.release.xcconfig */;
@@ -944,6 +1045,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		ADB441C90DC41784BE7F131BFE2D1163 /* Build configuration list for PBXNativeTarget "Pods-APIExample-OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B897E8FEC614767A681D45BE0F07F4F3 /* Debug */,
+				A276C50A32D48AA5220B011E27CC3BEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		AE4146678B996FB0E750C099ED16441D /* Build configuration list for PBXNativeTarget "Pods-Agora-ScreenShare-Extension-OC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -962,11 +1072,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FFA8A2DDF39B4A6FB09527CFFC18E029 /* Build configuration list for PBXNativeTarget "Pods-APIExample-OC" */ = {
+		FC8DF80A130A04C6B189219605D7DE16 /* Build configuration list for PBXAggregateTarget "FaceBeauty" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				271FDA40E2813871B63E7547DCF21496 /* Debug */,
-				491F52BD5DCC6D221E107EBBE20EAA20 /* Release */,
+				4CDAB6E004A491A6896FE22076DC432A /* Debug */,
+				24BABBC2A01FCF4FEA06D8E1260973F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

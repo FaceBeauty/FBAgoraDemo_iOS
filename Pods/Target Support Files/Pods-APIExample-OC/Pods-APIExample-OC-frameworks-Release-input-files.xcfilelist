@@ -1,4 +1,5 @@
 ${PODS_ROOT}/Target Support Files/Pods-APIExample-OC/Pods-APIExample-OC-frameworks.sh
+${PODS_ROOT}/FaceBeauty/FaceBeauty.framework
 ${PODS_XCFRAMEWORKS_BUILD_DIR}/sdk/AgoraAiEchoCancellationExtension.framework/AgoraAiEchoCancellationExtension
 ${PODS_XCFRAMEWORKS_BUILD_DIR}/sdk/AgoraAiEchoCancellationLLExtension.framework/AgoraAiEchoCancellationLLExtension
 ${PODS_XCFRAMEWORKS_BUILD_DIR}/sdk/AgoraAiNoiseSuppressionExtension.framework/AgoraAiNoiseSuppressionExtension

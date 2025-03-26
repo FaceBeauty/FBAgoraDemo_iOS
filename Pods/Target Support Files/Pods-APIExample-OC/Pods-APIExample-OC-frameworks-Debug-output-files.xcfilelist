@@ -1,3 +1,4 @@
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FaceBeauty.framework
 ${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AgoraAiEchoCancellationExtension.framework
 ${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AgoraAiEchoCancellationLLExtension.framework
 ${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AgoraAiNoiseSuppressionExtension.framework

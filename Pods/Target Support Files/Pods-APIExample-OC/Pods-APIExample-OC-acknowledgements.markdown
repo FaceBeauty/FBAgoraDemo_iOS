@@ -1,6 +1,14 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
+## FaceBeauty
+
+MIT License
+
+Copyright (c) 2025
+
+
+
 ## sdk
 
 Copyright 2018 agora.io. All rights reserved.

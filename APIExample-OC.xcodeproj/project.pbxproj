@@ -622,8 +622,6 @@
 		E0EFB6282D802EF100404A94 /* FBModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E0EFB1E22D802EF100404A94 /* FBModel.m */; };
 		E0EFB6292D802EF100404A94 /* FBVideoProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0EFB1CF2D802EF100404A94 /* FBVideoProgressView.m */; };
 		E0EFB62F2D802F6400404A94 /* FaceBeauty.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E0EFB62E2D802F6400404A94 /* FaceBeauty.bundle */; };
-		E0EFB6302D80318E00404A94 /* FaceBeauty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0EFB3CE2D802EF100404A94 /* FaceBeauty.framework */; };
-		E0EFB6312D80318E00404A94 /* FaceBeauty.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E0EFB3CE2D802EF100404A94 /* FaceBeauty.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E0EFB6322D80319000404A94 /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0EFB1D02D802EF100404A94 /* Masonry.framework */; };
 		E0EFB6332D80319000404A94 /* Masonry.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E0EFB1D02D802EF100404A94 /* Masonry.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E0EFB6342D80319500404A94 /* SSZipArchive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0EFB1D12D802EF100404A94 /* SSZipArchive.framework */; };
@@ -778,7 +776,6 @@
 				89FF3D192D10027D0089E396 /* Pods_APIExample_OC.framework in Embed Frameworks */,
 				E0EFB6372D80372100404A94 /* SimpleFilter.framework in Embed Frameworks */,
 				E0EFB6352D80319500404A94 /* SSZipArchive.framework in Embed Frameworks */,
-				E0EFB6312D80318E00404A94 /* FaceBeauty.framework in Embed Frameworks */,
 				E0EFB6332D80319000404A94 /* Masonry.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -1465,7 +1462,6 @@
 		E0EFB3C92D802EF100404A94 /* CustomWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomWindow.m; sourceTree = "<group>"; };
 		E0EFB3CA2D802EF100404A94 /* FBUIManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBUIManager.h; sourceTree = "<group>"; };
 		E0EFB3CB2D802EF100404A94 /* FBUIManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBUIManager.m; sourceTree = "<group>"; };
-		E0EFB3CE2D802EF100404A94 /* FaceBeauty.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FaceBeauty.framework; sourceTree = "<group>"; };
 		E0EFB62E2D802F6400404A94 /* FaceBeauty.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FaceBeauty.bundle; sourceTree = "<group>"; };
 		E22416FC36DE1212EE1E1760 /* Pods-Agora-ScrrenShare-Extension-OC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Agora-ScrrenShare-Extension-OC.release.xcconfig"; path = "Target Support Files/Pods-Agora-ScrrenShare-Extension-OC/Pods-Agora-ScrrenShare-Extension-OC.release.xcconfig"; sourceTree = "<group>"; };
 		E70ADDEC2A5D004F009947CF /* APIExample-OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "APIExample-OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1662,7 +1658,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0EFB6342D80319500404A94 /* SSZipArchive.framework in Frameworks */,
-				E0EFB6302D80318E00404A94 /* FaceBeauty.framework in Frameworks */,
 				E0EFB6362D80372100404A94 /* SimpleFilter.framework in Frameworks */,
 				E0EFB6322D80319000404A94 /* Masonry.framework in Frameworks */,
 				749177BD2429C778B3C6D520 /* Pods_APIExample_OC.framework in Frameworks */,
@@ -2518,7 +2513,6 @@
 			children = (
 				E0EFB62E2D802F6400404A94 /* FaceBeauty.bundle */,
 				E0EFB3CC2D802EF100404A94 /* FBUI */,
-				E0EFB3CE2D802EF100404A94 /* FaceBeauty.framework */,
 			);
 			path = FBEffectLib;
 			sourceTree = "<group>";

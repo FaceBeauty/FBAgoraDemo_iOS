@@ -1,9 +1,12 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
 CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../libs" "${PODS_XCFRAMEWORKS_BUILD_DIR}/sdk"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../libs" "${PODS_ROOT}/FaceBeauty" "${PODS_XCFRAMEWORKS_BUILD_DIR}/sdk"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-OTHER_LDFLAGS = $(inherited) -framework "AgoraAiEchoCancellationExtension" -framework "AgoraAiEchoCancellationLLExtension" -framework "AgoraAiNoiseSuppressionExtension" -framework "AgoraAiNoiseSuppressionLLExtension" -framework "AgoraAudioBeautyExtension" -framework "AgoraClearVisionExtension" -framework "AgoraContentInspectExtension" -framework "AgoraFaceCaptureExtension" -framework "AgoraFaceDetectionExtension" -framework "AgoraLipSyncExtension" -framework "AgoraReplayKitExtension" -framework "AgoraRtcKit" -framework "AgoraSoundTouch" -framework "AgoraSpatialAudioExtension" -framework "AgoraVideoAv1DecoderExtension" -framework "AgoraVideoAv1EncoderExtension" -framework "AgoraVideoDecoderExtension" -framework "AgoraVideoEncoderExtension" -framework "AgoraVideoQualityAnalyzerExtension" -framework "AgoraVideoSegmentationExtension" -framework "Agorafdkaac" -framework "Agoraffmpeg" -framework "aosl" -framework "video_dec" -framework "video_enc"
-OTHER_MODULE_VERIFIER_FLAGS = $(inherited) "-F${PODS_CONFIGURATION_BUILD_DIR}/sdk"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) /usr/lib/swift '@executable_path/Frameworks' '@loader_path/Frameworks'
+LIBRARY_SEARCH_PATHS = $(inherited) "${TOOLCHAIN_DIR}/usr/lib/swift/${PLATFORM_NAME}" /usr/lib/swift
+OTHER_LDFLAGS = $(inherited) -framework "AgoraAiEchoCancellationExtension" -framework "AgoraAiEchoCancellationLLExtension" -framework "AgoraAiNoiseSuppressionExtension" -framework "AgoraAiNoiseSuppressionLLExtension" -framework "AgoraAudioBeautyExtension" -framework "AgoraClearVisionExtension" -framework "AgoraContentInspectExtension" -framework "AgoraFaceCaptureExtension" -framework "AgoraFaceDetectionExtension" -framework "AgoraLipSyncExtension" -framework "AgoraReplayKitExtension" -framework "AgoraRtcKit" -framework "AgoraSoundTouch" -framework "AgoraSpatialAudioExtension" -framework "AgoraVideoAv1DecoderExtension" -framework "AgoraVideoAv1EncoderExtension" -framework "AgoraVideoDecoderExtension" -framework "AgoraVideoEncoderExtension" -framework "AgoraVideoQualityAnalyzerExtension" -framework "AgoraVideoSegmentationExtension" -framework "Agorafdkaac" -framework "Agoraffmpeg" -framework "FaceBeauty" -framework "aosl" -framework "video_dec" -framework "video_enc"
+OTHER_MODULE_VERIFIER_FLAGS = $(inherited) "-F${PODS_CONFIGURATION_BUILD_DIR}/FaceBeauty" "-F${PODS_CONFIGURATION_BUILD_DIR}/sdk"
+OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
