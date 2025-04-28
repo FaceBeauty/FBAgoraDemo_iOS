@@ -8,7 +8,7 @@ end
 target 'APIExample-OC' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-  pod 'FaceBeauty','4.0.0-rc'
+  pod 'FaceBeauty'
   common_pods
 end
 
